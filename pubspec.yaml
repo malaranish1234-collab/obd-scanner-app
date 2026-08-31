@@ -1,0 +1,24 @@
+name: obd_scanner_app
+description: OBD-II Bluetooth vehicle diagnostic scanner for two-wheelers (BS6 / OBD-II compliant vehicles in India)
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bluetooth_serial: ^0.4.0
+  permission_handler: ^11.3.1
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  fl_chart: ^0.68.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
